@@ -19,6 +19,5 @@ public class Code_6 {
         System.out.println(obj.array_sum(arr, arr_size));
 
     }
-     
 
 }

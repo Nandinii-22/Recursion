@@ -13,4 +13,8 @@ Code_4 - a to the power b
 <br>
 Code_5 - fibonacci
 <br>
-Code_6 - 
+Code_6 - Sum of array
+<br>
+Code_7 - find the element in array and print the index
+<br>
+Code_8 - 
