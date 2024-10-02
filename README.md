@@ -17,4 +17,14 @@ Code_6 - Sum of array
 <br>
 Code_7 - find the element in array and print the index
 <br>
-Code_8 - 
+Code_8 - Multiply 2 in each element of array
+<br>
+Code_9 - Greatest common divisor
+<br>
+Code_10 - Reverse an array
+<br>
+Code_11 - Reverse the number and count its digits
+<br>
+Code_12 - Binary search
+<br>
+
