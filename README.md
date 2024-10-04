@@ -27,4 +27,6 @@ Code_11 - Reverse the number and count its digits
 <br>
 Code_12 - Binary search
 <br>
-
+Code_13 - Reverse string
+<br>
+Code_14 - palindrome string

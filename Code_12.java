@@ -1,5 +1,15 @@
 import java.util.Scanner;
 public class Code_12 {
+    boolean check_sorted(int []arr, int size, int index){
+        if(index >= size)
+        return true;
+        if(arr[index]>arr[index-1]){
+        boolean ans = check_sorted(arr, size, index+1);
+        return ans;
+        }
+        else
+        return false;
+    }
     int binary_search(int[]arr, int index, int size,int e){
         if(index>size)
         return -1;
@@ -29,6 +39,12 @@ public class Code_12 {
         }
         System.out.println("Enter the element to be searched");
         int e = in.nextInt(); 
-        System.out.println(obj.binary_search(arr,index,size-1,e));
+        boolean is_sorted = obj.check_sorted(arr,size,index+1);
+        if( is_sorted ){
+        System.out.println("Array is sorted");
+        System.out.println(obj.binary_search(arr,index,size,e));
+        }
+        else 
+        System.out.println("Array is not sorted");
 }
 }
