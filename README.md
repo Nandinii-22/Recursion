@@ -30,3 +30,8 @@ Code_12 - Binary search
 Code_13 - Reverse string
 <br>
 Code_14 - palindrome string
+<br>
+Code_15 - maximum and minimum in the array
+<br>
+Code_16 - Count no. of occurances
+<br>
