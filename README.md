@@ -35,3 +35,8 @@ Code_15 - maximum and minimum in the array
 <br>
 Code_16 - Count no. of occurances
 <br>
+Code_17 - string anagram
+<br>
+Code_18 - Subsequences of a string
+<br>
+
