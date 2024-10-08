@@ -39,4 +39,4 @@ Code_17 - string anagram
 <br>
 Code_18 - Subsequences of a string
 <br>
-
+Code_19 - maximize the cut segament
