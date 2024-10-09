@@ -1,19 +1,15 @@
 import java.io.*;
+import java.lang.*;
 public class Code_19 {
     int maximize_cuts(int n, int x, int y, int z){
-        int ans = 0;
         if(n == 0)
         return 0;
         if(n<0)
-        return -1;
+        return Integer.MIN_VALUE;
         int a = 1 + maximize_cuts(n-x,x,y,z);
         int b = 1 + maximize_cuts(n-y,x,y,z);
         int c = 1 + maximize_cuts(n-z,x,y,z);
-        if(a>b && a>c)
-         ans = a;
-         if(b>a && b>c)
-         ans = b;
-         else ans = c;
+        int ans = Math.max(a,Math.max(b,c));
         return ans;
     }
     public static void main(String args[]) throws IOException{
